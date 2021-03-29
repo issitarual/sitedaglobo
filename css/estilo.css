@@ -1,0 +1,582 @@
+.containertopo {
+  height: 103px;
+  width: 100%;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #e6e6e6;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+.menu {
+  width: 1145px;
+  height: 103px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.tamanhodologo {
+  height: 60px;
+  margin-right: 25px;
+}
+.linksdomenu {
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  margin-right: 25px;
+  letter-spacing: -0.8px;
+  font-weight: bold;
+}
+.vermelho {
+  color: #a80001;
+}
+.verde {
+  color: #06aa48;
+}
+.amarelo {
+  color: #ff7f00;
+}
+.cinza {
+  color: #666666;
+}
+.azul {
+  color: #0769de;
+}
+.containerpagina {
+  display: flex;
+  justify-content: center;
+}
+.containernoticias {
+  width: 1145px;
+  /* background-color: #ff7f00;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.containervermelho {
+  width: 560px;
+  /*  background-color: aquamarine;*/
+}
+.containerverde {
+  width: 276.25px;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.containeramarelo {
+  width: 276.25px;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.materiaprincipal {
+  width: 572.5px;
+  font-size: 52px;
+  font-weight: bold;
+  text-align: left;
+  color: #a80001;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: -0.5px;
+  line-height: 1.1;
+  margin-bottom: 15px;
+}
+.materiasecundaria {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  color: #a80001;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: -0.6px;
+  margin-bottom: 15px;
+}
+.bordamateriaprincipal {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #e6e6e6;
+  margin-bottom: 20px;
+}
+.img1 {
+  border-radius: 4px;
+  width: 171px;
+  height: 96px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.img2 {
+  border-radius: 4px;
+  width: 235px;
+  height: 118px;
+  margin-bottom: 10px;
+}
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.vermelhomeio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #e6e6e6;
+  margin-bottom: 20px;
+}
+.caixadodrauzio {
+  width: 171px;
+  margin-bottom: 15px;
+}
+.caixadrauziototal {
+  width: 171px;
+  margin-bottom: 15px;
+}
+.libano {
+  width: 171px;
+  margin-bottom: 15px;
+}
+.libanototal {
+  width: 171px;
+  margin-bottom: 15px;
+}
+.libano2 {
+  width: 171px;
+  margin-bottom: 15px;
+}
+.libanototal2 {
+  width: 171px;
+  margin-bottom: 15px;
+}
+.vermelhobaixo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.biroliro {
+  width: 171px;
+  margin-bottom: 15px;
+}
+.birolirototal {
+  width: 171px;
+  margin-bottom: 15px;
+}
+.justica {
+  width: 171px;
+  margin-bottom: 15px;
+}
+.justicatotal {
+  width: 171px;
+  margin-bottom: 15px;
+}
+.doria {
+  width: 171px;
+  margin-bottom: 15px;
+}
+.doriatotal {
+  width: 171px;
+  margin-bottom: 15px;
+}
+
+.brasileirao {
+  width: 235px;
+  margin-bottom: 15px;
+}
+.brasileiraototal {
+  width: 235px;
+}
+
+.cavanitotal {
+  width: 235px;
+}
+.justicatotal2 {
+  width: 235px;
+}
+.justica1 {
+  width: 235px;
+  margin-bottom: 15px;
+}
+.justica2 {
+  width: 235px;
+}
+
+.amarelomeio {
+  width: 235px;
+}
+.amarelobaixo {
+  width: 235px;
+}
+.fina1 {
+  margin-bottom: 10px;
+}
+.fina2 {
+  margin-bottom: 10px;
+}
+.amarelotopo {
+  width: 235px;
+}
+.beijo1 {
+  margin-bottom: 10px;
+}
+.beijo2 {
+  margin-bottom: 10px;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+}
+.vermelho:hover {
+  filter: brightness(140%);
+}
+.verde:hover {
+  filter: brightness(140%);
+}
+.amarelo:hover {
+  filter: brightness(140%);
+}
+.cinza:hover {
+  filter: brightness(140%);
+}
+.azul:hover {
+  filter: brightness(140%);
+}
+.materiaprincipal:hover {
+  filter: brightness(140%);
+}
+.materiasecundaria:hover {
+  filter: brightness(140%);
+}
+a:active {
+  text-decoration: none;
+}
+.mobilelogo {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    display: none;
+  }
+  .topologomobile {
+    height: 80px;
+    width: 100%;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e6e6e6;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+  }
+  .mobilelogo {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+    align-content: center;
+  }
+  .containertopo {
+    height: 70px;
+    margin-bottom: 15px;
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+    height: 70px;
+  }
+  .containernoticias {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .materiaprincipal {
+    font-size: 32px;
+    width: 100%;
+  }
+  .materiasecundaria {
+    font-size: 18px;
+    width: 100%;
+  }
+  .containervermelho {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  .img1 {
+    width: 120px;
+    height: 67px;
+    margin-right: 10px;
+    margin-top: -5px;
+  }
+  .img2 {
+    width: 120px;
+    height: 67px;
+    margin-right: 10px;
+  }
+  .h3 {
+    font-size: 18px;
+  }
+  .h4 {
+    font-size: 18px;
+  }
+
+  .vermelhomeio {
+    display: flex;
+    flex-direction: column;
+  }
+  .vermelhobaixo {
+    display: flex;
+    flex-direction: column;
+  }
+  .caixadrauziototal {
+    width: 100%;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e6e6e6;
+  }
+  .caixadodrauzio {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: top;
+    margin-bottom: 0px;
+  }
+  .libanototal {
+    width: 100%;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e6e6e6;
+  }
+  .libano {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: top;
+    margin-bottom: 0px;
+  }
+  .libanototal2 {
+    width: 100%;
+  }
+  .libano2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: top;
+    margin-bottom: 0px;
+  }
+
+  .birolirototal {
+    margin-top: -10px;
+    width: 100%;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e6e6e6;
+  }
+  .biroliro {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: top;
+    margin-bottom: 5px;
+  }
+  .justicatotal {
+    margin-top: -5px;
+    width: 100%;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e6e6e6;
+  }
+  .justica {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  .doriatotal {
+    margin-top: -5px;
+    width: 100%;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e6e6e6;
+  }
+  .doria {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  .containerverde {
+    border-left: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  .verdetopo {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e6e6e6;
+  }
+  .brasileiraototal {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .brasileirao {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    margin-bottom: 5px;
+  }
+  .verdemeio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e6e6e6;
+  }
+  .cavanitotal {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    margin-top: 10px;
+  }
+
+  .verdebaixo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e6e6e6;
+  }
+  .justica1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .justica2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .justicatotal2 {
+    width: 100%;
+    display: column;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .containeramarelo {
+    border-left: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  .amarelotopo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e6e6e6;
+  }
+  .beijo1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: top;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+  .beijo2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .beijo3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .amarelomeio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e6e6e6;
+  }
+  .fina1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .fina3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .amarelobaixo {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    width: 90%;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e6e6e6;
+  }
+  .drauziomobile {
+    margin-bottom: 10px;
+  }
+
+  .libanomobile {
+    margin-bottom: 10px;
+  }
+  .libano2mobile {
+    margin-bottom: 10px;
+  }
+  .biroliromobile {
+    margin-bottom: 10px;
+  }
+  .justicamobile {
+    margin-bottom: 10px;
+  }
+  .doriamobile {
+    margin-bottom: 10px;
+  }
+}
