@@ -1,4 +1,4 @@
-# Globo.com Project
+# Globo.com Project 📰
 > Create a website similar to Globo.com layout's using HTML and CSS, with mobile and desktop version.
 ### Preview 👀
 <a href="https://issitarual.github.io/sitedaglobo/">
